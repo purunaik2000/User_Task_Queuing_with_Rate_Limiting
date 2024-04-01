@@ -41,7 +41,7 @@ This application is designed to manage user tasks by queuing them and implementi
 1. Clone the project
 
 ```bash
-  git clone https://github.com/purunaik2000/User_Task_Queuing_with_Rate_Limiting
+  git clone https://github.com/purunaik2000/User_Task_Queuing_with_Rate_Limiting.git
 ```
 
 2. Go to the project directory
