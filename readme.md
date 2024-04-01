@@ -102,6 +102,19 @@ To run this project, you will need to add the following environment variables to
     "user_id: "123"
 }
 ```
+
+## Testing
+
+To test the application import the `Rate-Limiting.postman_collection.json` file in postman
+
+- Using `random user request` send a request with random user_id.
+
+- Using `request with userId` send request with costom user_id.
+
+- Use collection runner to send multiple requests at a time to check rate limiting is working fine or not.
+
+- In logs file the task execution time is logged which will help to monitor the performance.
+
 ## Tech Stack
 
 **Server:** Node, Express
