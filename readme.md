@@ -99,7 +99,7 @@ To run this project, you will need to add the following environment variables to
 
 ```json
 {
-    "user_id: "123"
+    "user_id": "123"
 }
 ```
 
