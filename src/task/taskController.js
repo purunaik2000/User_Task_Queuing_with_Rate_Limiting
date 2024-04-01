@@ -4,7 +4,7 @@ const taskQueue = require("../configs/bullConfig");
 const taskController = async (req, res) => {
   try {
     // Take userId from request body
-    const userId = req.body?.userId;
+    const userId = req.body?.user_id;
 
     // return error responce if userId does not exist
     if (!userId)

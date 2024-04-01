@@ -12,7 +12,7 @@ const taskQueue = new Queue(process.env.QUEUE_NAME, {
 
 taskQueue.process((job, done) => {
   // Task will be performed here
-  task(job.data?.userId);
+  task(job.data?.user_id);
   done(job);
 });
 
