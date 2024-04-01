@@ -2,7 +2,7 @@
 # User Task Queuing with Rate Limiting
 
 ## Owerview
-This application is designed to manage user tasks by queuing them and implementing rate limiting to ensure optimal resource utilization. It helps in prioritizing tasks based on their importance and limits the rate at which tasks can be processed to avoid overwhelming the system.
+This application is designed to manage user tasks by queuing them and implementing rate limiting to ensure optimal resource utilization. It helps in limiting the rate at which tasks can be processed to avoid overwhelming the system.
 
 ## Features
 
